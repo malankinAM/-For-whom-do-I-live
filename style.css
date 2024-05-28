@@ -142,3 +142,24 @@ body {
 		color: rgb(240, 11, 11);
 	}
 }
+
+/* Медиазапрос для мобильных устройств с шириной до 470px */
+@media (max-width: 470px) {
+	.clock {
+		width: 15em;
+		height: 15em;
+	}
+	.clock__hand--h {
+		font-size: 0.75em;
+	}
+	.clock__hand--m {
+		font-size: 0.8125em;
+	}
+	.clock__hand--s {
+		font-size: 0.875em;
+	}
+	.clock__hand,
+	.clock__number {
+		color: rgb(240, 11, 11);
+	}
+}
